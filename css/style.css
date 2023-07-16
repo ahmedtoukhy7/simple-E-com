@@ -1,0 +1,357 @@
+*{
+    box-sizing: border-box;
+}
+
+.contanier{
+    padding-left: 50px;
+    padding-right: 50px;
+    margin:  auto;
+}
+.header{
+    background-color: cornflowerblue;
+}
+.header-cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding:  0 10px;
+}
+.header-cont a{
+    text-decoration: none;
+    color: white;
+}
+.header-cont ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+.header-cont ul a{
+    font-size: 25px;
+}
+
+.cont{
+    background-color: aquamarine;
+    width: 300px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    height: 150px;
+}
+
+.register-cont{
+    width: 500px;
+    background-color: aquamarine;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    text-align: center;
+    padding: 20px;
+}
+.register-cont input{
+    display: block;
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+}
+
+.register-cont button{
+    width: 90%;
+    background-color: blueviolet;
+    color: white;
+    font-size: 25px;
+}
+
+.register-cont h2{
+    color: blueviolet;
+    font-size: 25px;
+}
+.login-cont{
+    width: 500px;
+    background-color: aquamarine;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    text-align: center;
+    padding: 20px;
+}
+.login-cont input{
+    display: block;
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+}
+
+.login-cont button{
+    width: 90%;
+    background-color: blueviolet;
+    color: white;
+    font-size: 25px;
+    
+}
+
+.login-cont h2{
+    color: blueviolet;
+    font-size: 25px;
+}
+
+.welcome{
+    font-size: 25px;
+    color: white;
+}
+
+.products-cont{
+    display: flex;
+    width: 40%;
+    background-color: aliceblue;
+    padding: 10px;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;margin: 20px;
+}
+.products-cont h2{
+    color: green;
+    font-size: 25px;
+}
+.products-cont button{
+    background-color: green;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    margin: 5px;
+    
+}
+.products-cont img{
+    width: 200px;
+    font-size: 25px;
+}
+
+.logout{
+    color: white;
+    font-size: 25px;
+    margin-left: 30px;
+}
+.showuser{
+    display: flex;
+   
+    
+}
+.bascket{
+    margin-right: 60px;
+    position: relative;
+    cursor: pointer;
+    
+}
+.num{
+    display: block;
+    position: absolute;
+    top: -10px;
+    left: 16px;
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+}
+.cardbascket{
+    font-size: 25px;
+    color: white;
+
+}
+
+.cards{
+    background-color: aliceblue;
+    width: 300px;
+    height: 200px;
+    margin-right: 180px;
+    text-align: center;
+    display: none;
+    
+}
+.cards p{
+    background-color: rgba(0, 128, 0, 0.486);
+    font-size: 20px;
+}
+.parent-cont{
+    display: flex;
+    justify-content: space-between;
+}
+.nodata{
+    width: 50%;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    background-color: chocolate;
+    
+    margin: 50px auto;
+    display: none;
+}
+.allproud{
+    margin-right: 50px;
+    color: white;
+    font-size: 25px;
+}
+.detailsh2{
+    color: green;
+    font-size: 25px;
+}
+.detailsp{
+    color: green;
+    font-size: 25px;
+}
+.products-contt{
+    width: 800px;
+    background-color: aliceblue;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#search{
+    width: 80%;
+    height: 40px;
+    display: block;
+    margin: 50px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.products-conttt{
+    width: 600px;
+    background-color: azure;
+}
+button{
+    background-color: green;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    margin: 5px;
+    
+}
+.allfav{
+    margin-right: 50px;
+    color: white;
+    font-size: 25px;
+}
+
+.create{
+    background-color: green;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    width: 50px;
+    height: 50px;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+    font-weight: 700;
+    cursor: pointer;
+    
+}
+
+.create-products{
+    width: 70%;
+
+    margin: auto;
+}
+
+.create-products input{
+    width: 100%;
+    margin: 15px;
+    height: 40px;
+    padding: 10px;
+    background-color: aliceblue;
+}
+.create-products #size{
+    width: 100%;
+    margin: 15px;
+    height: 40px;
+    padding: 10px;
+    background-color: aliceblue;
+}
+.create-products #create{
+    background-color: cornflowerblue;
+    color: white;
+    font-size: 25px;
+    line-height: 7px;
+}
+
+.parent-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.h2titles{
+    display: flex;
+    justify-content: space-between;
+}
+.createh2{
+    background-color:cornflowerblue ;
+    padding: 20px;
+    color: white;
+    font-size: 25px;
+    position: relative;
+    right: -400px;
+    width: 300px;
+    text-align: center;
+
+}
+.showh2{
+    background-color:cornflowerblue ;
+    padding: 20px;
+    color: white;
+    font-size: 25px;
+    position: relative;
+    right: -40px;
+    width: 300px;
+    text-align: center;
+
+}
+
+.create-parent{
+    position: absolute;
+    top: 250px;
+    right: 0;
+}
+
+
+#search2{
+    width: 100%;
+    height: 50PX;
+}
+
+.profile{
+    margin-right: 50px;
+    color: white;
+    font-size: 25px;
+}
+
+
+.imgavatar{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 30px;
+}
+
+.parent-cont2 a{
+    background-color: cornflowerblue;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 25px;
+    color: black;
+    width: 200px;
+    display: block;
+    text-align: center;
+   
+
+}
